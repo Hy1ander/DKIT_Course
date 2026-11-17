@@ -3,3 +3,4 @@
 class Pizza:
     def __init__(self):
         self.__size = "Medium"
+        self.toppings = []

@@ -3,4 +3,7 @@
 class Pizza:
     def __init__(self, toppings, size="Medium"):
         self.toppings = toppings
-        self.__size = size
+        allowed_sizes = ["Small", "Medium", "Large", "Extra-large"]
+
+        if size in allowed_sizes:
+            self.__size = size

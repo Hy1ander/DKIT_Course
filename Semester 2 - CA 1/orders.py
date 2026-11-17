@@ -7,3 +7,5 @@ class Pizza:
 
         if size in allowed_sizes:
             self.__size = size
+        else:
+            self.__size = "Medium"
